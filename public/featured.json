@@ -1,0 +1,27 @@
+ [
+      {
+        "id": 1,
+        "title": "Flexibility and Stretching Routines",
+        "description": "Unlock your body's potential with our comprehensive flexibility and stretching routines. From dynamic warm-ups to targeted stretches, enhance your flexibility and reduce the risk of injuries. Discover the joy of a more limber and agile you.",
+        "image_url": "https://i.postimg.cc/KYZK38Bh/Screenshot-2020-04-06-at-14-45-22.png"
+      },
+      {
+        "id": 2,
+        "title": "Functional Training Workouts",
+        "description": "Experience the power of functional training – workouts designed to improve your everyday movements. Strengthen your core, enhance stability, and boost overall agility. Elevate your fitness with exercises that make every day feel easier.",
+        "image_url": "https://i.postimg.cc/52J5p1Ln/Getty-Images-1186565884.jpg"
+      },
+      {
+        "id":3,
+        "title": "Bodybuilding Workouts",
+        "description": "Build and sculpt your physique with our specialized bodybuilding workouts. Target major muscle groups, optimize hypertrophy, and achieve the strong, defined look you desire.",
+        "image_url": "https://i.postimg.cc/WzMFJFWj/bodybuilding-workout-plans.jpg"
+      },
+      {
+        "id":4,
+        "title": "Weightlifting",
+        "description": "Master the art of weightlifting with our comprehensive training programs. From powerlifting to Olympic lifts, enhance strength, power, and technique. Elevate your weightlifting game with expert guidance and tailored workouts.",
+        "image_url": "https://i.postimg.cc/8cBcC8cz/man-lifting-weights-muscular-man-workout-gym-doing-exercises-with-barbell-183219-1300.jpg"
+      }
+    ]
+  
