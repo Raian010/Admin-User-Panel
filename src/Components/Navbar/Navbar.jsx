@@ -6,25 +6,27 @@ import { AuthContext } from "../../Provider/AuthProvider";
 
 
 const Navbar = () => {
-//    const {user,logout} = useContext(AuthContext);
+   const {user,logout} = useContext(AuthContext);
 
-//    const handlelogOut = () => {
-//     logout()
-//     .then(result => {
-//       console.log(result);
-//     })
-//     .catch(error => console.log(error))
-//    }
+   const handlelogOut = () => {
+    logout()
+    .then(result => {
+      console.log(result);
+    })
+    .catch(error => console.log(error))
+   }
 
    const links = <>
    <li className=" "><Link to="/"><FaHome></FaHome>Home</Link></li>
-   <li className=""><Link to="/add"><FaBriefcase></FaBriefcase>Add job</Link></li>
-   <li className=""><Link to="/posted"><FaUser></FaUser>My posted jobs</Link></li>
-   <li className=""><Link to="/mybid"><FaDollarSign></FaDollarSign>My Bids</Link></li>
-   <li className=""><Link to="/request">
-    <FaClock></FaClock>Bid Requests</Link></li>
-   <li className=""><Link to="/register"><FaRegistered></FaRegistered>
-    Register</Link></li>
+   <li className=""><Link to="/gallery"><FaBriefcase></FaBriefcase>Gallery</Link></li>
+   <li className=""><Link to="/trainer"><FaUser></FaUser>Trainer</Link></li>
+   <li className=""><Link to="/classes"><FaDollarSign></FaDollarSign>Classes</Link></li>
+   <li className=""><Link to="/dashboard">
+    <FaClock></FaClock>Dashboard</Link></li>
+   <li className=""><Link to="/community"><FaRegistered></FaRegistered>
+    Community</Link></li>
+   {/* <li className=""><Link to="/register"><FaRegistered></FaRegistered>
+    Register</Link></li> */}
    </>
 
     return (
@@ -43,7 +45,7 @@ const Navbar = () => {
          <span>
          <img className="w-[80px] md:w-[120px] hidden md:block font-bold" src="https://i.postimg.cc/9fHW6xz9/find-job-logo-icon-design-vector-22742492-1-removebg-preview.png" alt="" /> 
         </span>
-        <span className="font-semibold mb-20 md:mb-0">CareerNest</span>
+        <span className="font-semibold mb-20 md:mb-0">Fitness Freak</span>
     </a>
  
     </div>
@@ -53,19 +55,18 @@ const Navbar = () => {
       {links}
     </ul>
   </div>
-  {/* <div className="navbar-end mr-10">
+  <div className="navbar-end mr-10">
   {
             user ?
-            <div className="">
-              <div>
+            <div>
+              <div className="flex items-center justify-center">
               <span className="font-bold">
               {
               user ?
-               <p className="flex justify-center items-center">
                 <span>
                   <img className={user.photoURL ? 'hidden md:block h-[50px] rounded-full p-1' : ""} src={user ? user.photoURL : ""} alt="" />
                   </span>
-                  <span className="mr-2 ml-16 md:ml-0 rounded-lg">{user.email}</span></p> : "" }
+                   : "" }
                </span>
                <Link to="/login"><button onClick={handlelogOut} className="btn btn-neutral ml-20 btn-sm">Logout</button></Link>
               </div>
@@ -75,7 +76,7 @@ const Navbar = () => {
             <NavLink to="/login"><button className="btn btn-primary">Login</button></NavLink>
             
           }
-  </div> */}
+  </div>
 </div>
     );
 };
