@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+      "name": "Mitchel Johnson",
+      "description": "Mitchel is a certified fitness trainer with a passion for helping individuals achieve their health and wellness goals. With a background in personal training and nutrition, she brings a holistic approach to fitness. Her upbeat personality and personalized workout plans make every session enjoyable and effective.",
+      "experience": "5+ years in personal training and group fitness classes.",
+      "capabilities": "Specializes in strength training, HIIT workouts, and nutritional coaching.",
+      "image": "https://i.postimg.cc/ZYWxbV6p/Personal-Trainer-Salary-Guide.jpg"
+    },
+    {
+        "id":2,
+      "name": "Marcus Rodriguez",
+      "description": "Marcus is an experienced fitness coach dedicated to empowering clients through physical and mental transformation. His diverse training background includes martial arts, yoga, and functional fitness. Marcus believes in building not just strength but overall well-being.",
+      "experience": "8+ years in fitness coaching and martial arts instruction.",
+      "capabilities": "Expertise in martial arts-based fitness, yoga, and functional movement training.",
+      "image": "https://i.postimg.cc/4y209dBP/ryan-k-450x450.jpg"
+    },
+    {
+        "id":3,
+      "name": "Emily Chen",
+      "description": "Emily is a passionate yoga instructor and wellness advocate. Her teaching style emphasizes the mind-body connection, promoting balance and flexibility. With a background in holistic health, Emily guides clients on a journey to enhance both physical and mental resilience.",
+      "experience": "6+ years in yoga instruction and holistic wellness coaching.",
+      "capabilities": "Specialized in yoga, mindfulness, and creating personalized wellness plans.",
+      "image": "https://i.postimg.cc/Pqf1B4tL/Become-Personal-Trainer-1024x683.jpg"
+    }
+  ]
