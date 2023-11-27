@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Strength Fusion",
+      "instructor": "Alex Johnson",
+      "description": "A dynamic class combining strength training and cardio for a full-body workout.",
+      "image": "https://i.postimg.cc/MKB5VqPc/group-ex-description-thumbnail-strength.jpg",
+      "price": 15
+    },
+    {
+      "id": 2,
+      "name": "Yoga Flow",
+      "instructor": "Emily Davis",
+      "description": "Immerse yourself in a calming yoga flow that enhances flexibility and mindfulness.",
+      "image": "https://i.postimg.cc/d3y22jBM/gentle-yoga-class.jpg",
+      "price": 12
+    },
+    {
+      "id": 3,
+      "name": "HIIT Revolution",
+      "instructor": "Chris Martinez",
+      "description": "High-Intensity Interval Training for maximum calorie burn and improved endurance.",
+      "image": "https://i.postimg.cc/kXWNDwGK/one-change-improve-hiit-workout-preformance-1513345031.jpg",
+      "price": 18
+    },
+    {
+      "id": 4,
+      "name": "Pilates Sculpt",
+      "instructor": "Sophia Lee",
+      "description": "Sculpt and tone your body with Pilates exercises focused on core strength and stability.",
+      "image": "https://i.postimg.cc/gJw8pH1w/full-shot-man-pilates-reformer-class-23-2150778212.jpg",
+      "price": 20
+    },
+    {
+      "id": 5,
+      "name": "Zumba Party",
+      "instructor": "Carlos Rodriguez",
+      "description": "Join the energetic Zumba party for a fun and effective dance-based workout.",
+      "image": "https://i.postimg.cc/QxZ1L5mt/636511124879052711-Zumba-Man-ar-01.jpg",
+      "price": 14
+    },
+    {
+      "id": 6,
+      "name": "Meditation Bliss",
+      "instructor": "Ava Williams",
+      "description": "Experience deep relaxation and mindfulness through guided meditation sessions.",
+      "image": "https://i.postimg.cc/PqJ8bMX6/young-women-men-yoga-class-meditation-exercises-lotus-pose-relaxation-healthy-lifestyle-fitness-club.jpg",
+      "price": 10
+    }
+  ]
