@@ -3,6 +3,7 @@ import Articles from "./Articles/Articles";
 import Banner from "./Banner/Banner";
 import Featured from "./Featured/Featured";
 import FeaturedClasses from "./FeaturedClass/FeaturedClasses";
+import NewsLetter from "./NewaLetter/NewsLetter";
 import Success from "./Stories/Success";
 import Trainer from "./Trainer/Trainer";
 
@@ -16,6 +17,7 @@ const Home = () => {
           <FeaturedClasses></FeaturedClasses>
           <Success></Success>
           <Articles></Articles>
+          <NewsLetter></NewsLetter>
           <Trainer></Trainer>
         </div>
     );
