@@ -7,19 +7,19 @@ const Details = () => {
     console.log(id);
     const trainer = details.find(detail => detail.id == id)
     console.log(trainer);
-    const {name,description,time_slot,experience,img} = trainer;
+    const {name,description,time_slot,experience,img,capabilities} = trainer;
     console.log(name,description,time_slot,experience);
 
     return (
         <div className="mt-10">
             <div className="card mx-auto md:w-[700px] bg-base-100 shadow-xl">
   <figure><img className="w-full h-[400px]" src={img} /></figure>
-  <div className="card-body">
-    <h2 className="card-title">{name}</h2>
-    <p>{description}</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
-    </div>
+  <div className="card-body space-y-2">
+    <h2 className="card-title font-bold">{name}</h2>
+    <p className="font-medium">{description}</p>
+    <p className="font-medium">{experience}</p>
+    <p className="font-medium">{capabilities}</p>
+    <p className="font-medium">Available Time- <span>{time_slot}</span> slots</p>
   </div>
 </div>
 <div className="mx-auto md:w-[600px] bg-base-100 shadow-xl p-5 mt-10">

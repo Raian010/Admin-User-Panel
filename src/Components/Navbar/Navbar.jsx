@@ -43,7 +43,7 @@ const Navbar = () => {
     <div>
     <a className="btn btn-ghost normal-case text-xl">
          <span>
-         <img className="w-[80px] md:w-[120px] hidden md:block font-bold" src="https://i.postimg.cc/9fHW6xz9/find-job-logo-icon-design-vector-22742492-1-removebg-preview.png" alt="" /> 
+         <img className="w-[80px] md:w-[120px] hidden md:block font-bold" src="https://i.postimg.cc/C5sSbpTZ/i-love-gym-logo-icon-fitness-center-dumbell-and-heart-health-care-concept-stock-vector-illustration.jpg" alt="" /> 
         </span>
         <span className="font-semibold mb-20 md:mb-0">Fitness Freak</span>
     </a>
