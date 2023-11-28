@@ -19,11 +19,13 @@ import Trainer from './Pages/Trainer/Trainer/Trainer';
 import Details from './Pages/Trainer/Details/Details';
 import TrainerForm from './Pages/Trainer/TrainerForm/TrainerForm';
 import Packages from './Pages/Trainer/Packages/Packages';
+import ErrorPage from './Error/ErrorPage';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement: <ErrorPage></ErrorPage>,
     children: [
       {
         path: "/",
