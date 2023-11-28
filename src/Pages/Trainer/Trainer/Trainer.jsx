@@ -10,7 +10,12 @@ const Trainer = () => {
         .then(data => setTrainers(data))
     },[])
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
+
+      <div>
+        <h2 className="text-4xl my-10 font-bold text-center">
+      Our <span className="text-blue-600">Trainers</span>
+    </h2> 
+         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
            {
             trainers.map(trainer => <div key={trainer.id} className="card w-96 bg-base-100 shadow-xl">
             <figure><img className="h-[290px] w-full" src={trainer.img} /></figure>
@@ -18,7 +23,7 @@ const Trainer = () => {
               <h2 className="card-title font-bold">{trainer.name}</h2>
              <div className="flex items-center">
               <p>Available slot-  </p>
-             <Link to={`/package/${trainer.id}`} className="btn btn-primary font-normal">{trainer.time_slot} slot</Link>
+             <Link to={`/package/${trainer.id}`} className="btn btn-success font-normal">{trainer.time_slot} slot</Link>
              </div>
               <p className="font-medium">{trainer.experience}</p>
               <div className="card-actions justify-end">
@@ -28,6 +33,11 @@ const Trainer = () => {
           </div>)
            }
         </div>
+      </div>
+
+
+      
+       
     );
 };
 

@@ -13,13 +13,14 @@ import Home from './Pages/Home/Home';
 import Login from './Components/Login/Login';
 import AuthProvider from './Provider/AuthProvider';
 import Register from './Components/Register/Register';
-import Class from './Pages/Home/Class/Class';
 import Gallery from './Pages/Gallery/Gallery/Gallery';
 import Trainer from './Pages/Trainer/Trainer/Trainer';
 import Details from './Pages/Trainer/Details/Details';
 import TrainerForm from './Pages/Trainer/TrainerForm/TrainerForm';
 import Packages from './Pages/Trainer/Packages/Packages';
 import ErrorPage from './Error/ErrorPage';
+import Classes from './Pages/Classes/Classes';
+import Forum from './Pages/Forum/Forum/Forum';
 
 const router = createBrowserRouter([
   {
@@ -38,10 +39,6 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register></Register>
-      },
-      {
-        path: "/classes",
-        element: <Class></Class>
       },
       {
         path: "/gallery",
@@ -64,6 +61,14 @@ const router = createBrowserRouter([
       {
         path: "/form",
         element: <TrainerForm></TrainerForm>
+      },
+      {
+        path: "/classes",
+        element: <Classes></Classes>
+      },
+      {
+        path: "/forum",
+        element: <Forum></Forum>
       }
     ]
   },

@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import { FaHome,FaBriefcase,FaUser,FaDollarSign,FaClock,FaRegistered  } from 'react-icons/fa';
+import { FaHome,FaBriefcase,FaUser, FaForumbee, FaDashcube, FaCalendarPlus  } from 'react-icons/fa';
 import { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 
@@ -17,16 +17,14 @@ const Navbar = () => {
    }
 
    const links = <>
-   <li className=" "><Link to="/"><FaHome></FaHome>Home</Link></li>
-   <li className=""><Link to="/gallery"><FaBriefcase></FaBriefcase>Gallery</Link></li>
-   <li className=""><Link to="/trainer"><FaUser></FaUser>Trainer</Link></li>
-   <li className=""><Link to="/classes"><FaDollarSign></FaDollarSign>Classes</Link></li>
-   <li className=""><Link to="/dashboard">
-    <FaClock></FaClock>Dashboard</Link></li>
-   <li className=""><Link to="/community"><FaRegistered></FaRegistered>
+   <li><Link to="/"><FaHome></FaHome>Home</Link></li>
+   <li><Link to="/gallery"><FaBriefcase></FaBriefcase>Gallery</Link></li>
+   <li><Link to="/trainer"><FaUser></FaUser>Trainer</Link></li>
+   <li><Link to="/classes"><FaCalendarPlus></FaCalendarPlus>Classes</Link></li>
+   <li><Link to="/dashboard">
+    <FaDashcube></FaDashcube>Dashboard</Link></li>
+   <li><Link to="/forum"><FaForumbee></FaForumbee>
     Community</Link></li>
-   {/* <li className=""><Link to="/register"><FaRegistered></FaRegistered>
-    Register</Link></li> */}
    </>
 
     return (
