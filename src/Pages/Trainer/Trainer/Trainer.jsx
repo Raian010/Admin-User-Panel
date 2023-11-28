@@ -16,7 +16,10 @@ const Trainer = () => {
             <figure><img className="h-[290px] w-full" src={trainer.img} /></figure>
             <div className="card-body">
               <h2 className="card-title font-bold">{trainer.name}</h2>
-              <p className="font-normal">Available time slot-  <span className="font-medium">{trainer.time_slot} hour</span></p>
+             <div className="flex items-center">
+              <p>Available slot-  </p>
+             <Link to={`/package/${trainer.id}`} className="btn btn-primary font-normal">{trainer.time_slot} slot</Link>
+             </div>
               <p className="font-medium">{trainer.experience}</p>
               <div className="card-actions justify-end">
                 <Link to={`/details/${trainer.id}`} className="btn btn-primary">Know more</Link>

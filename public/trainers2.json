@@ -6,7 +6,33 @@
       "description": "Mitchel is a certified fitness trainer with a passion for helping individuals achieve their health and wellness goals. With a background in personal training and nutrition, she brings a holistic approach to fitness. Her upbeat personality and personalized workout plans make every session enjoyable and effective.",
       "experience": "5+ years in personal training and group fitness classes.",
       "capabilities": "Specializes in strength training, HIIT workouts, and nutritional coaching.",
-      "img": "https://i.postimg.cc/ZYWxbV6p/Personal-Trainer-Salary-Guide.jpg"
+      "img": "https://i.postimg.cc/ZYWxbV6p/Personal-Trainer-Salary-Guide.jpg",
+      "packages": [
+        {
+          "id":1,
+          "name": "Silver",
+          "time": 60,
+          "price": 60,
+          "description": "Basic package with personalized workout plans and nutritional guidance.",
+          "features": ["Personalized workout plans", "Nutritional guidance"]
+        },
+        {
+          "id":2,
+          "name": "Gold",
+          "time": 75,
+          "price": 90,
+          "description": "Enhanced package with additional one-on-one coaching sessions.",
+          "features": ["Personalized workout plans", "Nutritional guidance", "One-on-one coaching"]
+        },
+        {
+          "id":3,
+          "name": "Diamond",
+          "time": 90,
+          "price": 120,
+          "description": "Premium package with personalized workout plans, nutrition coaching, and exclusive access to group classes.",
+          "features": ["Personalized workout plans", "Nutritional guidance", "One-on-one coaching", "Exclusive group classes"]
+        }
+      ]
     },
     {
         "id":2,
@@ -15,7 +41,33 @@
       "description": "Marcus is an experienced fitness coach dedicated to empowering clients through physical and mental transformation. His diverse training background includes martial arts, yoga, and functional fitness. Marcus believes in building not just strength but overall well-being.",
       "experience": "8+ years in fitness coaching and martial arts instruction.",
       "capabilities": "Expertise in martial arts-based fitness, yoga, and functional movement training.",
-      "img": "https://i.postimg.cc/4y209dBP/ryan-k-450x450.jpg"
+      "img": "https://i.postimg.cc/4y209dBP/ryan-k-450x450.jpg",
+      "packages": [
+        {
+          "id":1,
+          "name": "Silver",
+          "time": 60,
+          "price": 65,
+          "description": "Basic package with personalized workout plans and martial arts-based fitness.",
+          "features": ["Personalized workout plans", "Martial arts-based fitness"]
+        },
+        {
+          "id":2,
+          "name": "Gold",
+          "time": 75,
+          "price": 95,
+          "description": "Enhanced package with additional yoga sessions.",
+          "features": ["Personalized workout plans", "Martial arts-based fitness", "Additional yoga sessions"]
+        },
+        {
+          "id":3,
+          "name": "Diamond",
+          "time": 90,
+          "price": 130,
+          "description": "Premium package with personalized workout plans, martial arts-based fitness, additional yoga sessions, and exclusive access to functional fitness workshops.",
+          "features": ["Personalized workout plans", "Martial arts-based fitness", "Additional yoga sessions", "Exclusive access to functional fitness workshops"]
+        }
+      ]
     },
     {
         "id":3,
@@ -24,7 +76,33 @@
       "description": "Emily is a passionate yoga instructor and wellness advocate. Her teaching style emphasizes the mind-body connection, promoting balance and flexibility. With a background in holistic health, Emily guides clients on a journey to enhance both physical and mental resilience.",
       "experience": "6+ years in yoga instruction and holistic wellness coaching.",
       "capabilities": "Specialized in yoga, mindfulness, and creating personalized wellness plans.",
-      "img": "https://i.postimg.cc/Pqf1B4tL/Become-Personal-Trainer-1024x683.jpg"
+      "img": "https://i.postimg.cc/Pqf1B4tL/Become-Personal-Trainer-1024x683.jpg",
+      "packages": [
+        {
+          "id":1,
+          "name": "Silver",
+          "time": 60,
+          "price": 70,
+          "description": "Foundation package with personalized yoga sessions and mindfulness coaching.",
+          "features": ["Personalized yoga sessions", "Mindfulness coaching"]
+        },
+        {
+          "id":2,
+          "name": "Gold",
+          "time": 75,
+          "price": 100,
+          "description": "Enhanced package with additional meditation sessions and personalized wellness plans.",
+          "features": ["Personalized yoga sessions", "Mindfulness coaching", "Additional meditation sessions", "Personalized wellness plans"]
+        },
+        {
+          "id":3,
+          "name": "Diamond",
+          "time": 90,
+          "price": 140,
+          "description": "Premium package with personalized yoga sessions, mindfulness coaching, exclusive access to wellness workshops, and nutrition guidance.",
+          "features": ["Personalized yoga sessions", "Mindfulness coaching", "Exclusive access to wellness workshops", "Nutrition guidance"]
+        }
+      ]
     },
     {
         "id":4,
@@ -33,7 +111,33 @@
         "description": "Jessica is a certified fitness trainer with a passion for helping individuals achieve their health and wellness goals. Her training style combines intensity with a focus on proper form, ensuring clients get results while minimizing the risk of injury.",
         "experience": "Over 7 years of experience in personal training and group fitness classes.",
         "capabilities": "Specialized in strength training, HIIT workouts, and nutrition counseling.",
-        "img": "https://example.com/jessica-miller.jpg"
+        "img": "https://i.postimg.cc/0QJgj8PF/61781324-portrait-of-female-gym-trainer-shallow-depth-of-field.jpg",
+        "packages": [
+          {
+            "id":1,
+            "name": "Silver",
+            "time": 60,
+            "price": 75,
+            "description": "Foundational package with personalized strength training and HIIT workouts.",
+            "features": ["Personalized strength training", "HIIT workouts"]
+          },
+          {
+            "id":2,
+            "name": "Gold",
+            "time": 75,
+            "price": 110,
+            "description": "Enhanced package with additional nutritional counseling and one-on-one coaching sessions.",
+            "features": ["Personalized strength training", "HIIT workouts", "Nutritional counseling", "One-on-one coaching"]
+          },
+          {
+            "id":3,
+            "name": "Diamond",
+            "time": 90,
+            "price": 150,
+            "description": "Premium package with personalized strength training, HIIT workouts, nutritional counseling, and exclusive access to group fitness classes.",
+            "features": ["Personalized strength training", "HIIT workouts", "Nutritional counseling", "One-on-one coaching", "Exclusive group fitness classes"]
+          }
+        ]
       },
       {
         "id":5,
@@ -42,7 +146,33 @@
         "description": "Alex is an experienced fitness coach dedicated to creating personalized workout plans that cater to individual fitness levels and goals. With a background in sports science, Alex emphasizes the importance of functional movement and overall well-being.",
         "experience": "10+ years in fitness coaching and sports science.",
         "capabilities": "Expertise in functional training, corrective exercises, and sports-specific conditioning.",
-        "img": "https://example.com/alex-ramirez.jpg"
+        "img": "https://i.postimg.cc/zGd4kLf4/2505199-portrait-of-a-fit-man-arms-crossed-in-the-gym-proud-muscular-bodybuilder-in-the-gym-confid.jpg",
+        "packages": [
+          {
+            "id":1,
+            "name": "Silver",
+            "time": 60,
+            "price": 80,
+            "description": "Basic package with personalized functional training and corrective exercises.",
+            "features": ["Personalized functional training", "Corrective exercises"]
+          },
+          {
+            "id":2,
+            "name": "Gold",
+            "time": 75,
+            "price": 120,
+            "description": "Enhanced package with additional sports-specific conditioning sessions and one-on-one coaching.",
+            "features": ["Personalized functional training", "Corrective exercises", "Sports-specific conditioning", "One-on-one coaching"]
+          },
+          {
+            "id":3,
+            "name": "Diamond",
+            "time": 90,
+            "price": 160,
+            "description": "Premium package with personalized functional training, corrective exercises, sports-specific conditioning, and exclusive access to advanced fitness workshops.",
+            "features": ["Personalized functional training", "Corrective exercises", "Sports-specific conditioning", "One-on-one coaching", "Exclusive access to advanced fitness workshops"]
+          }
+        ]
       },
       {
         "id": 6,
@@ -51,6 +181,32 @@
         "description": "Sarah is a passionate yoga instructor and mindfulness coach. Her teaching philosophy focuses on the mind-body connection, fostering inner balance and physical flexibility. Sarah believes in the transformative power of yoga for overall health and stress relief.",
         "experience": "6 years of experience in yoga instruction and mindfulness coaching.",
         "capabilities": "Specialized in yoga, meditation, and creating holistic wellness plans.",
-        "img": "https://example.com/sarah-johnson.jpg"
+        "img": "https://i.postimg.cc/65Ks6JSb/54601879-portrait-of-female-gym-instructor-writing-on-clipboard-in-gym.jpg",
+        "packages": [
+          {
+            "id":1,
+            "name": "Silver",
+            "time": 60,
+            "price": 70,
+            "description": "Foundation package with personalized yoga sessions and mindfulness coaching.",
+            "features": ["Personalized yoga sessions", "Mindfulness coaching"]
+          },
+          {
+            "id":2,
+            "name": "Gold",
+            "time": 75,
+            "price": 100,
+            "description": "Enhanced package with additional meditation sessions and personalized wellness plans.",
+            "features": ["Personalized yoga sessions", "Mindfulness coaching", "Additional meditation sessions", "Personalized wellness plans"]
+          },
+          {
+            "id":3,
+            "name": "Diamond",
+            "time": 90,
+            "price": 140,
+            "description": "Premium package with personalized yoga sessions, mindfulness coaching, exclusive access to wellness workshops, and nutrition guidance.",
+            "features": ["Personalized yoga sessions", "Mindfulness coaching", "Exclusive access to wellness workshops", "Nutrition guidance"]
+          }
+        ]
       }
   ]

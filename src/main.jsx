@@ -18,6 +18,7 @@ import Gallery from './Pages/Gallery/Gallery/Gallery';
 import Trainer from './Pages/Trainer/Trainer/Trainer';
 import Details from './Pages/Trainer/Details/Details';
 import TrainerForm from './Pages/Trainer/TrainerForm/TrainerForm';
+import Packages from './Pages/Trainer/Packages/Packages';
 
 const router = createBrowserRouter([
   {
@@ -52,6 +53,11 @@ const router = createBrowserRouter([
         path: "/details/:id",
         element: <Details></Details>,
         loader: () => fetch(`/trainers2.json`)
+      },
+      {
+        path: '/package/:id',
+        element: <Packages></Packages>,
+        loader: () => fetch('/trainers2.json')
       },
       {
         path: "/form",
