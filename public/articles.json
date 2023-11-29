@@ -1,0 +1,16 @@
+[
+    {
+        "id":1,
+        "image": "https://i.postimg.cc/Y0vJvW3w/quinoa-salad.jpg",
+        "title": "Quinoa Salad Delight",
+        "date": "December 18, 2023",
+        "description": "Delve into the world of culinary delights with our featured quinoa salad recipe. This nutrient-packed dish combines vibrant vegetables, wholesome quinoa, and a zesty dressing for a burst of flavors and health benefits. Explore step-by-step instructions and nutritional insights to elevate your next meal."
+      },
+      {
+        "id":2,
+        "image": "https://i.postimg.cc/7Y3y0g4x/Mindful-Fitness.png",
+        "title": "Mindful Fitness Connection",
+        "date": "December 21, 2023",
+        "description": "Explore the profound connection between mindfulness and fitness. Gain insights into how cultivating mindfulness during your workouts can enhance your physical and mental well-being. Uncover practical techniques, mindfulness exercises, and real-life experiences that illustrate the transformative power of a mindful approach to fitness."
+      }
+]

@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import { FaHome,FaBriefcase,FaUser, FaForumbee, FaDashcube, FaCalendarPlus  } from 'react-icons/fa';
+import { FaHome,FaBriefcase,FaUser, FaForumbee, FaDashcube, FaCalendarPlus} from 'react-icons/fa';
 import { useContext } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 

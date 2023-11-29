@@ -1,0 +1,12 @@
+.pagination-button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .pagination-button.selected {
+    background-color: #007bff;
+    color: #fff;
+  }
