@@ -14,7 +14,7 @@ const NewsLetter = () => {
         axiosPublic.post('/subscribe',user)
         .then(res => {
             if(res.data.insertedId){
-                Swal.fire("Success!", "You successfully added a job", "success");
+                Swal.fire("Success!", "You successfully subscribed", "success");
             }
           })
         

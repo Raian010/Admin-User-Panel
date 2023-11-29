@@ -3,13 +3,17 @@ import animationData from "../../../assets/login-animation.json";
 import { useContext, useState } from "react";
 import { updateProfile } from "firebase/auth";
 import Swal from "sweetalert2";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 // import { Helmet } from "react-helmet-async";
 import { AuthContext } from "../../Provider/AuthProvider";
+import UsePublic from "../../Hooks/Public/UsePublic";
 
 const Register = () => {
   const { signUp } = useContext(AuthContext);
   const [handleError,setHandleError] = useState("")
+  const navigate = useNavigate();
+
+  const axiosPublic = UsePublic();
 
   const handleSignup = e => {
     e.preventDefault();
@@ -18,6 +22,7 @@ const Register = () => {
     const photo = form.photo.value;
     const email = form.email.value;
     const password = form.password.value;
+    const newUser = {name,photo,email};
 
     setHandleError("");
 
@@ -49,11 +54,13 @@ const Register = () => {
             .then(() => console.log("updated"))
             .catch((error) => console.log(error));
         
-            Swal.fire(
-                'Successful!',
-                'Registration done!',
-                'success'
-              )
+            axiosPublic.post("/users",newUser)
+            .then(res => {
+              if(res.data.insertedId){
+                  Swal.fire("Success!", "You successfully Registered", "success");
+              }
+            })
+            navigate("/");
     })
     .catch(error => console.log(error))
   }
