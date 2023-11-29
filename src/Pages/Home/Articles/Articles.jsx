@@ -15,8 +15,8 @@ const Articles = () => {
         sub={"Explore our latest blogs and articles for fitness & nutrition"}
       ></Shared>
 
-      <div className="flex gap-5 mt-10">
-        <div className="card w-2/3 bg-base-100 shadow-xl">
+      <div className="flex flex-col lg:flex-row gap-5 mt-10">
+        <div className="card lg:w-2/3 bg-base-100 shadow-xl">
           <figure>
             <img className="w-full" src="https://i.postimg.cc/s2NFsmYJ/morning-routine-for-success-400x240.jpg" />
           </figure>
@@ -31,16 +31,16 @@ const Articles = () => {
             </p>
             <p>December 15, 2023</p>
             <figure>
-            <img className="w-full" src="https://i.postimg.cc/s2NFsmYJ/morning-routine-for-success-400x240.jpg" />
+            <img className="w-full" src="https://i.postimg.cc/XvDymLBc/are-you-missing-out-discover-the-morning-routine-of-successful-people-2-768x512.jpg" />
           </figure>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-5">
+        <div className="grid md:grid-cols-2 lg:grid-cols-1 gap-5">
           {articles.map((article) => (
-            <div key={article.id} className="card w-96 h-[600px] bg-base-100 shadow-xl">
+            <div key={article.id} className="card md:w-96 h-[600px] bg-base-100 shadow-xl">
               <figure>
-                <img src={article.image} alt="Shoes" />
+                <img className="h-[250px] w-full" src={article.image} alt="Shoes" />
               </figure>
               <div className="card-body">
                 <h2 className="card-title">{article.title}</h2>

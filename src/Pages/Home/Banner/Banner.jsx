@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Banner = () => {
     
     return (
-        <div className="hero min-h-[80vh]" style={{backgroundImage: 'url(https://i.postimg.cc/Dy1xfSBv/pngtree-fitness-exercise-run-banner-background-image-255468.jpg)'}}>
+        <div className="hero min-h-[80vh] mt-10" style={{backgroundImage: 'url(https://i.postimg.cc/Dy1xfSBv/pngtree-fitness-exercise-run-banner-background-image-255468.jpg)'}}>
   <div className="bg-opacity-10"></div>
   <div className="max-w-xl text-center md:text-end lg:ml-80 text-black">
     <div>
