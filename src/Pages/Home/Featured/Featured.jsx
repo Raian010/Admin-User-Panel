@@ -16,7 +16,7 @@ const Featured = () => {
            <div className="grid md:grid-cols-2 mx-auto gap-5">
               
               {
-                  featured.map(feature => <div key={feature.id} className="card md:w-96 bg-base-100 shadow-xl">
+                  featured.map(feature => <div key={feature.id} className="card bg-base-100 shadow-xl">
                   <div className="card-body">
                   <figure><img className="h-[232px]" src={feature.image_url} alt="Shoes" /></figure>
                     <h2 className="card-title">{feature.title}</h2>
