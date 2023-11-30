@@ -88,7 +88,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/dashboard",
-    element: <Dashboard></Dashboard>,
+    element: <Private><Dashboard></Dashboard></Private>,
     children: [
       {
         path: "/dashboard/subscribe",
