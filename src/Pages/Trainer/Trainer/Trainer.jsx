@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 
@@ -12,6 +13,9 @@ const Trainer = () => {
     return (
 
       <div>
+        <Helmet>
+        <title>Fitness freak | Trainer</title>
+      </Helmet>
         <h2 className="text-4xl my-10 font-bold text-center">
       Our <span className="text-blue-600">Trainers</span>
     </h2> 

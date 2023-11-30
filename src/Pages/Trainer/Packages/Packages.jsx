@@ -9,7 +9,8 @@ const Packages = () => {
     const packs = useLoaderData();
     const {id} = useParams();
     const pack = packs.find(pack => pack.id == id)
-    const {packages} = pack;
+    console.log(pack);
+    const {packages,name,time_slot} = pack;
 
     const {user} = useContext(AuthContext);
 
@@ -20,7 +21,9 @@ const Packages = () => {
         const newIncomer = {
             email: user?.email,
             name: user?.displayName,
-            pack: pack
+            pack: pack,
+            trainer_name: name,
+            time_slot: time_slot
         };
 
         axiosPublic.post('/join',newIncomer)

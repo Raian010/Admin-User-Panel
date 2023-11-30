@@ -28,6 +28,8 @@ import Trainers from './Pages/Dashboard/Trainers';
 import Applied from './Pages/Dashboard/Applied';
 import Balance from './Pages/Dashboard/Balance';
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import AdminRoute from './Provider/AdminRoute';
+import Activity from './Pages/Dashboard/User/Activity';
 
 const queryClient = new QueryClient();
 
@@ -87,19 +89,23 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/dashboard/subscribe",
-        element: <Subscribers></Subscribers>
+        element: <AdminRoute><Subscribers></Subscribers></AdminRoute>
       },
       {
         path: "/dashboard/trainers",
-        element: <Trainers></Trainers>
+        element: <AdminRoute><Trainers></Trainers></AdminRoute>
       },
       {
         path: "/dashboard/applied",
-        element: <Applied></Applied>
+        element: <AdminRoute><Applied></Applied></AdminRoute>
       },
       {
         path: "/dashboard/balance",
-        element: <Balance></Balance>
+        element: <AdminRoute><Balance></Balance></AdminRoute>
+      },
+      {
+        path: "/dashboard/activity",
+        element: <Private><Activity></Activity></Private>
       }
     ]
   }

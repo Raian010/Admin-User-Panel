@@ -3,6 +3,7 @@ import UsePublic from "../../../Hooks/Public/UsePublic";
 import { useEffect } from "react";
 import { FaCalendar, FaEye } from "react-icons/fa";
 import "../Forum/Forum.css";
+import { Helmet } from "react-helmet-async";
 
 const Forum = () => {
   const axiosPublic = UsePublic();
@@ -46,6 +47,9 @@ const Forum = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Fitness freak | Community</title>
+      </Helmet>
       {loading ? (
         <span className="loading loading-spinner loading-lg"></span>
       ) : (

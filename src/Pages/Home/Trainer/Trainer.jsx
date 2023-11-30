@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Shared from "../../../Components/Shared/Shared";
 
 
+
 const Trainer = () => {
     const [trainers,setTrainers] = useState([]);
     useEffect(() => {
@@ -11,6 +12,7 @@ const Trainer = () => {
     },[])
     return (
         <div>
+          
             <Shared heading={"Meet Our Expert Trainers"} sub={"Dedicated Professionals Comitted to Your Fitness Journey"}></Shared>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-5">
                 {
