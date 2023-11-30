@@ -7,10 +7,10 @@ import { AuthContext } from "./AuthProvider";
 
 const AdminRoute = ({children}) => {
     const [isAdmin,isAdminLoading] = useAdmin();
-    const {user,loading} = useContext(AuthContext);
+    const {user,isLoading} = useContext(AuthContext);
     const location = useLocation();
     // const navigate = useNavigate()
-    if(loading || isAdminLoading){
+    if(isLoading || isAdminLoading){
         return <p>It is Loading</p>
     }
 

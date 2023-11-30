@@ -1,11 +1,12 @@
 import { NavLink } from "react-router-dom";
-// import useAdmin from "../../../Hooks/Admin/useAdmin";
+import useAdmin from "../../../Hooks/Admin/useAdmin";
+
 
 
 
 
 const SideBar = () => {
-    const isAdmin = true;
+    const [isAdmin] = useAdmin();
 
     return (
         <div className="w-64 min-h-screen bg-blue-500">
