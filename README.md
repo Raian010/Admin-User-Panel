@@ -5,12 +5,12 @@
 https://assignment-final-client.web.app/
 
 ## Five Features of this project
--
+-In the Gallery page,there is many photos of our fitness website.
 
--He/she can bid on any job, without his/her posted jobs.
+-In Newsletter anyone can subscribe to the website.
 
--He/she can see bid requests of the clients in his/her bid request page.
+-In the trainer page,We can see the trainers and also can join there course. 
 
--Owner can manage employees bid in bids request page.He/she can accept or reject employees bids.
+-We can also apply ourselfs as a trainer in the trainer details page.
 
--Owner can delete or update his/her jobs.Only the owner can do this.
+-There is specific dashboard for admin and users.
