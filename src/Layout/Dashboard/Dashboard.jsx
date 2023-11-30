@@ -12,7 +12,7 @@ const Dashboard = () => {
       </Helmet>
       <div className="flex">
             <SideBar></SideBar>
-            <div className="flex-1">
+            <div className="flex-1 w-2/3">
                 <Outlet></Outlet>
             </div>
         </div>

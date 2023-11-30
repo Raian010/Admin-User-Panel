@@ -12,11 +12,11 @@ const Activity = () => {
     useEffect(() => {
         axiosPublic.get(`/join/${user?.email}`)
         .then(res => {
-            console.log(res.data);
+            // console.log(res.data);
             setActivities(res.data);
             setLoading(false);
         })
-    },[axiosPublic])
+    },[axiosPublic,user?.email])
     return (
         <div className="md:ml-10">
             <div className="overflow-x-auto">

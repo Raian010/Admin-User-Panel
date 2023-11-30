@@ -30,6 +30,9 @@ import Balance from './Pages/Dashboard/Balance';
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import AdminRoute from './Provider/AdminRoute';
 import Activity from './Pages/Dashboard/User/Activity';
+import Profile from './Pages/Dashboard/User/Profile';
+import Update from './Pages/Dashboard/User/Update';
+import Recommended from './Pages/Dashboard/User/Recommended';
 
 const queryClient = new QueryClient();
 
@@ -106,6 +109,18 @@ const router = createBrowserRouter([
       {
         path: "/dashboard/activity",
         element: <Private><Activity></Activity></Private>
+      },
+      {
+        path: "/dashboard/profile",
+        element: <Private><Profile></Profile></Private>
+      },
+      {
+        path: "/dashboard/update",
+        element: <Private><Update></Update></Private>
+      },
+      {
+        path: "/dashboard/recommend",
+        element: <Private><Recommended></Recommended></Private>
       }
     ]
   }

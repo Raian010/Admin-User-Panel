@@ -20,8 +20,8 @@ const SideBar = () => {
                     </> :
                     <>
                         <li><NavLink to="/dashboard/activity">Activity Log</NavLink></li>
-                        <li><NavLink to="/dashboard/reservation">Profile Settings</NavLink></li>
-                        <li><NavLink to="/dashboard/review">Recommended Classes</NavLink></li>    
+                        <li><NavLink to="/dashboard/profile">Profile Settings</NavLink></li>
+                        <li><NavLink to="/dashboard/recommend">Recommended Classes</NavLink></li>    
                         </>
                 }
             </ul>

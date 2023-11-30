@@ -5,7 +5,7 @@ import Shared from "../../../Components/Shared/Shared";
 const Featured = () => {
     const [featured,setFeatured] = useState([]);
     useEffect(() => {
-        fetch('../../../../featured.json')
+        fetch('/featured.json')
         .then(res => res.json())
         .then(data => setFeatured(data))
     },[])
